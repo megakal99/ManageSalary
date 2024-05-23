@@ -1,7 +1,7 @@
 import streamlit as st
 import re
 from datetime import datetime
-from Data.Sl import date_salary
+from Data.Salary import date_salary
 import json
 import pandas as pd
 import os
