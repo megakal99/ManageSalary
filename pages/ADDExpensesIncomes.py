@@ -2,7 +2,7 @@ import streamlit as st
 import re,os
 from datetime import datetime
 import json
-from Data.Sl import date_salary
+from Data.Salary import date_salary
 import pandas as pd
 #######################################
 st.set_page_config(
