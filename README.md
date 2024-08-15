@@ -1,4 +1,4 @@
-#ManageSalary
+# ManageSalary
 
 ManageSalary is a user-friendly application designed to help you manage salary and expenses effectively. The app features an intuitive interface for salary management and will soon be enhanced with Generative AI capabilities and an expert salary and expenses manager chatbot for advanced features and personalized insights. Stay tuned for updates!
 
