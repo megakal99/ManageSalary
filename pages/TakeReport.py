@@ -14,7 +14,7 @@ st.set_page_config(
 def write_to_json(file_path, new_data):
     try:
         # Try to read existing data from the JSON file
-        with open(f"Data/MonthlyData/{file_path}", 'r') as json_file:
+        with open(f"./Data/MonthlyData/{file_path}", 'r') as json_file:
             existing_data = json.load(json_file)
     except (FileNotFoundError, json.decoder.JSONDecodeError):
         # If the file does not exist or is empty, initialize with an empty list
@@ -22,11 +22,11 @@ def write_to_json(file_path, new_data):
     # Append the new value to the existing data
     existing_data.append(new_data)
     # Write the combined data back to the JSON file
-    with open(f"Data/MonthlyData/{file_path}", 'w') as json_file:
+    with open(f"./Data/MonthlyData/{file_path}", 'w') as json_file:
         json.dump(existing_data, json_file, indent=2)
 
 def GetLastFileName():
-   files = os.listdir('Data/MonthlyData')
+   files = os.listdir('./Data/MonthlyData')
    sorted_files = sorted(files)
    return sorted_files[-1]
 
@@ -76,23 +76,23 @@ def HandleSummerPlan():
       st.warning("Enter a valid expense!")
 def getTotalIncrement():
   global ExpectedLongTermSavingAmount,LongTermSavingAmount,SummerAmount,EmergencyFundAmount
-  files = os.listdir('Data/MonthlyData')
+  files = os.listdir('./Data/MonthlyData')
   ExpectedLongTermSavingAmount=0
   if len(files)==0:
     st.warning("No Data is existing!!!")
     st.stop()
   elif len(files)==1:
     file=files[-1]
-    result_df=pd.read_json(f'Data/MonthlyData/{file}')
+    result_df=pd.read_json(f'./Data/MonthlyData/{file}')
     file=file[:-5]
     ExpectedLongTermSavingAmount+=0.3*date_salary[file]
     LongTermSavingAmount=sum(result_df[result_df['SubCategory']=='LongTerm Saving']['Amount'])
     SummerAmount=sum(result_df[result_df['ParentCategory']=='SummerPlan']['Amount'])
     EmergencyFundAmount=sum(result_df[result_df['SubCategory']=='Emergency Saving']['Amount'])
   else:
-   result_df=pd.read_json(f'Data/MonthlyData/{files[-1]}')
+   result_df=pd.read_json(f'./Data/MonthlyData/{files[-1]}')
    for file in files[:-1]:
-    df = pd.read_json(f'Data/MonthlyData/{file}')
+    df = pd.read_json(f'./Data/MonthlyData/{file}')
     ExpectedLongTermSavingAmount+=0.3*date_salary[file[:-5]]
     result_df = pd.concat([result_df, df], ignore_index=True)
    LongTermSavingAmount=sum(result_df[result_df['SubCategory']=='LongTerm Saving']['Amount'])
