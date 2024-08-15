@@ -18,7 +18,7 @@ def validate_time_format(time_str):
 ######Create json file to store data of the month
 def modify_json_files():
     # Create the filename with the time_input
-    filename = f"Data/MonthlyData/{current_date}.json"
+    filename = f"./Data/MonthlyData/{current_date}.json"
     # Check if the file is not exists
     if not os.path.exists(filename):
         CreateInitialData(filename)
@@ -50,14 +50,14 @@ def update_date_forLastofMonth():
      # Get a list of files in the specified folder
     jsonFile=''
     try:
-        files = os.listdir('Data/MonthlyData')
+        files = os.listdir('./Data/MonthlyData')
         # Sort the files
         
         sorted_files = sorted(files)
         # Calculate the number of JSON files
         num_json_files = len(files)
         if num_json_files>1:
-            jsonFile= f"Data/MonthlyData/{sorted_files[-2]}"
+            jsonFile= f"./Data/MonthlyData/{sorted_files[-2]}"
             current_date = datetime.now()
             date_string = current_date.strftime("%d/%m/%Y")
             df = pd.read_json(f'{jsonFile}')
