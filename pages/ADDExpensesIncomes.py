@@ -24,7 +24,7 @@ def write_to_json(file_path, new_data):
     with open(file_path, 'w') as json_file:
         json.dump(existing_data, json_file, indent=2)
 def GetLastFileName():
-   files = os.listdir('./Data/MonthlyData')
+   files = os.listdir('Data/MonthlyData')
    sorted_files = sorted(files)
    return sorted_files[-1]
 def getSumOf(Category,subCategory):

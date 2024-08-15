@@ -46,5 +46,11 @@
     "ParentCategory": "Needs",
     "SubCategory": "Water bill",
     "Date": "31/07/2024"
+  },
+  {
+    "Amount": -200.0,
+    "ParentCategory": "Needs",
+    "SubCategory": "Housing bill",
+    "Date": "15/08/2024"
   }
 ]

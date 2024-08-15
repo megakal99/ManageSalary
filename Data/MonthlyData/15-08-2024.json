@@ -1,0 +1,80 @@
+[
+  {
+    "Amount": 3115.0,
+    "ParentCategory": "Needs",
+    "SubCategory": "Needs",
+    "Date": "15/08/2024"
+  },
+  {
+    "Amount": 2670.0,
+    "ParentCategory": "Saving",
+    "SubCategory": "LongTerm Saving",
+    "Date": "15/08/2024"
+  },
+  {
+    "Amount": 890.0,
+    "ParentCategory": "Saving",
+    "SubCategory": "Short Term Saving",
+    "Date": "15/08/2024"
+  },
+  {
+    "Amount": 890.0,
+    "ParentCategory": "Saving",
+    "SubCategory": "Emergency Saving",
+    "Date": "15/08/2024"
+  },
+  {
+    "Amount": 1335.0,
+    "ParentCategory": "Other",
+    "SubCategory": "Other",
+    "Date": "15/08/2024"
+  },
+  {
+    "Amount": 623.0,
+    "ParentCategory": "SummerPlan",
+    "SubCategory": "SummerPlan",
+    "Date": "15/08/2024"
+  },
+  {
+    "Amount": 267.0,
+    "ParentCategory": "Saving",
+    "SubCategory": "LongTerm Saving",
+    "Date": "15/08/2024"
+  },
+  {
+    "Amount": -623.0,
+    "ParentCategory": "Saving",
+    "SubCategory": "Short Term Saving",
+    "Date": "15/08/2024"
+  },
+  {
+    "Amount": -267.0,
+    "ParentCategory": "Saving",
+    "SubCategory": "Short Term Saving",
+    "Date": "15/08/2024"
+  },
+  {
+    "Amount": 2180.5,
+    "ParentCategory": "SummerPlan",
+    "SubCategory": "SummerPlan",
+    "Date": "15/08/2024"
+  },
+  {
+    "Amount": 934.5,
+    "ParentCategory": "Saving",
+    "SubCategory": "LongTerm Saving",
+    "Date": "15/08/2024"
+  },
+  {
+    "Amount": -2180.5,
+    "ParentCategory": "Needs",
+    "SubCategory": "SummerNeeds",
+    "Date": "15/08/2024"
+  },
+  {
+    "Amount": -934.5,
+    "Parent Category": "Needs",
+    "SubCategory": "LongSavingNeeds",
+    "Date": "15/08/2024"
+  }
+]

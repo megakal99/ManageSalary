@@ -51,7 +51,7 @@ def draw_bar_plot(category):
 # Load data from the JSON file
 def load_data(fileName):
      try:
-      df = pd.read_json(f'Data/MonthlyData/{fileName}')
+      df = pd.read_json(f'./Data/MonthlyData/{fileName}')
       FileTime=fileName[:-5]
       return FileTime,df
      except FileNotFoundError:
@@ -83,7 +83,7 @@ def EmojCondition(Categ):
     else:
       pass
 # Load the data
-files = os.listdir('Data/MonthlyData')
+files = os.listdir('./Data/MonthlyData')
 if len(files)==0:
     st.warning("No Data is existing!!!")
     st.stop()
