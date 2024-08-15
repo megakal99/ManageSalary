@@ -10,7 +10,7 @@ ManageSalary is a user-friendly application designed to help you manage salary a
 
 ### Live Demo:
 
-Explore the current version of the application here: View the app
+Explore the current version of the application here: https://managesalary-gabh67hc7ds6wptgexzpgx.streamlit.app/
 
 ### Running Locally:
 
@@ -26,6 +26,3 @@ To set up and run the ManageSalary app locally, follow these steps:
 
     Generative AI Integration: Future updates will include Generative AI capabilities for advanced financial insights and analysis.
     Expert Salary and Expenses Manager Chatbot: A specialized chatbot to offer personalized advice and assistance in managing salaries and expenses.
-
-
-link: https://managesalary-gabh67hc7ds6wptgexzpgx.streamlit.app/
