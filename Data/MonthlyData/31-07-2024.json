@@ -1,0 +1,50 @@
+[
+  {
+    "Amount": 280.0,
+    "ParentCategory": "Needs",
+    "SubCategory": "Needs",
+    "Date": "31/07/2024"
+  },
+  {
+    "Amount": 240.0,
+    "ParentCategory": "Saving",
+    "SubCategory": "LongTerm Saving",
+    "Date": "31/07/2024"
+  },
+  {
+    "Amount": 80.0,
+    "ParentCategory": "Saving",
+    "SubCategory": "Short Term Saving",
+    "Date": "31/07/2024"
+  },
+  {
+    "Amount": 80.0,
+    "ParentCategory": "Saving",
+    "SubCategory": "Emergency Saving",
+    "Date": "31/07/2024"
+  },
+  {
+    "Amount": 120.0,
+    "ParentCategory": "Other",
+    "SubCategory": "Other",
+    "Date": "31/07/2024"
+  },
+  {
+    "Amount": -120.0,
+    "ParentCategory": "Other",
+    "SubCategory": "Enjoy",
+    "Date": "31/07/2024"
+  },
+  {
+    "Amount": -60.0,
+    "ParentCategory": "Needs",
+    "SubCategory": "Wifi bill",
+    "Date": "31/07/2024"
+  },
+  {
+    "Amount": -20.0,
+    "ParentCategory": "Needs",
+    "SubCategory": "Water bill",
+    "Date": "31/07/2024"
+  }
+]

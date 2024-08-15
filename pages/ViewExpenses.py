@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from Data.Salary import date_salary
+from Data.Sl import date_salary
 import matplotlib.pyplot as plt
 import os
 
